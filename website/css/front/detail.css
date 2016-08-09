@@ -1,0 +1,9 @@
+#header  a { color: white; }
+#side-wrapper{
+    background-color: tan;
+}
+#side-wrapper .image-list img{margin-bottom: 10px;}
+
+#content-wrapper p { padding: 0 1em 1em;}
+
+#content-wrapper dd { padding-left: 1em; }

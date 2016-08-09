@@ -1,0 +1,69 @@
+/* Fieldset group */
+fieldset { padding: .5em 1em; border: solid 1px silver; margin-bottom: 2em; padding-bottom: 2em; }
+legend { padding: 0 .3em; line-height: 2em; font-size: 1.3em; }
+
+/* Label */
+label { padding-right: .5em; line-height: .5em;}
+label span { font-weight: normal; padding-right: 1em;width: 5em; }
+
+form p { padding: 0 1em; margin-bottom: 1em; width: 5em;}
+
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="image"],
+input[type="month"],
+input[type="number"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea,
+select
+    { 
+    padding: .4em;
+    border: 1px solid #aaa;
+    display: block;
+    overflow: hidden;
+	color: #333;
+	box-sizing: border-box;
+	background-color: #F8F8F8;
+    text-align: left;
+    line-height: 1.4em;
+    width: 10em;
+	}
+
+select option{ text-align: left; }
+
+input.focus, textarea.focus { border-color: #5897FB; }
+
+input[readonly="readonly"] { background-color: #e8e8e8; border-color: transparent; }
+
+/* Buttons */
+input[type="submit"], input[type="button"], button
+{
+	padding: .3em 1em;
+	font-weight: bold;
+	margin-right: .3em;
+	text-align: center;
+    box-sizing: border-box;
+}
+
+input[type="submit"].warn, input[type="button"].warn
+{
+	color: red;
+}
+
+input[type="submit"].action, input[type="button"].action
+{
+	color: green;
+}
+
+/* Specificka pravidla */
+#form-vip-servis textarea { width: 575%; height: 10em; }
+
+

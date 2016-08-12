@@ -9,7 +9,7 @@ $data = array();
 $data['links'] = array('css/front/detail.css');
 $css = loadTemplate('front/headCssLinks.php', $data);
 
-$data = array('');
+$data = array('test');
 $data['links'] = array();
 $js = loadTemplate('front/headJsLinks.php', $data);
 

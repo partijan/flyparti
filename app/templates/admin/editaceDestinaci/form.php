@@ -44,13 +44,13 @@
 		
         <p class="form-pair">
             <label for="dtValidFrom">Platnost od:</label>
-            <input type="text" name="dtValidFrom" id="dtValidFrom" value="<?php echo getArrayValue($values, 'dtValidFrom') ?>" placeholder="" />	
+            <input type="text" name="dtValidFrom" id="dtValidFrom" value="<?php echo getArrayValue($values, 'dtValidFrom') ?>" placeholder="20. 10. 2022" />	
             <b class="warning"><?php echo getArrayValue($errors, 'dtValidFrom') ?></b>
         </p>
 		
         <p class="form-pair">
             <label for="dtValidTo">Platnost do:</label>
-            <input type="text" name="dtValidTo" id="dtValidTo" value="<?php echo getArrayValue($values, 'dtValidTo') ?>" placeholder="" />	
+            <input type="text" name="dtValidTo" id="dtValidTo" value="<?php echo getArrayValue($values, 'dtValidTo') ?>" placeholder="20. 10. 2022" />	
             <b class="warning"><?php echo getArrayValue($errors, 'dtValidTo') ?></b>
         </p>		
         

@@ -10,7 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 /**
- * Created by Jiří on 05.09.2016.
+ *
+ * @author parti
  */
 public class Test2Java {
     private WebDriver driver;
